@@ -5,5 +5,4 @@ One of the driving force responsible of weather changing are the fronts. Front i
 
 * The scritp fd_fc_CNN_123.py is the script for the training
 * The script fd_fc_Inference.ipynb is the script for inference. And Explains a briefly about the pre-processing of the data
-* Within the folder samples, are the samples of Era5 data used for inference and Mask used to compare the Prediction with the GroundTruh
 * Within the folder model_weights there is the best model saved. 
