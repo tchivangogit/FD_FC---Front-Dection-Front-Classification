@@ -292,7 +292,7 @@ def main_cnnad(X, Y):
     best_model_path = f"fd_fc_CNNad_123/cnn_ad_best_model_{date_string}.pth" # Melhor Modelo
     print(f"Best Model Saved *_{date_string}")
     
-    for epoch in range(3):
+    for epoch in range(550):
         # Treinamento
         train_loss, train_acc = train(model, train_loader, optimizer, criterion, device)
         # Validação
@@ -386,3 +386,4 @@ def main_cnnad(X, Y):
 # === Execução ===
 
 main_cnnad(X, masks)
+
